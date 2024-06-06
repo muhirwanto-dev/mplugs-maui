@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-android</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -9,9 +9,15 @@
     <Title>MPlugs.Popup</Title>
     <Authors>muhirwanto.dev</Authors>
     <Description>Popups plugin for .NET MAUI</Description>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/muhirwanto-dev/mplugs-maui</PackageProjectUrl>
     <RepositoryUrl>https://github.com/muhirwanto-dev/mplugs-maui</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.40" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.4" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MPlugs.Contract\MPlugs.Contract.csproj" />
