@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>mplugs;maui;popup;plugin</PackageTags>
+    <Title>MPlugs.Popup</Title>
+    <Authors>muhirwanto.dev</Authors>
+    <Description>Popups plugin for .NET MAUI</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/muhirwanto-dev/mplugs-maui</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MPlugs.Contract\MPlugs.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
